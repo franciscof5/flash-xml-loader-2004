@@ -1,0 +1,40 @@
+<questao>
+
+<enunciado>
+	<frase indicador="alvo">
+		Um <alvo>movel</alvo>
+	</frase>
+	<conector global="conector1"> 
+	com
+	</conector>
+	<frase indicador="grandeza"> 
+		<dado global="dado1" valor="vm" morfologia="conceitual" pertinencia="naorelacionado" amplitude="especifica" 			conjuntura="direcional">
+		velocidade media
+		</dado>
+	</frase>
+	<frase indicador="unidade"> 
+		<numero global="dado1numero" dado="vm">
+		80 
+		</numero>
+		<unidade global="dado1numeronunidade" numero="numero1">
+		m/s2
+		</unidade>		
+	</frase>
+	<frase indicador="alvo"> 
+	parte de Campinas
+	</frase>
+	<frase indicador="grandeza"> 
+	visando chegar em Itapetininga as 18 horas.
+	</frase>
+</enunciado>
+
+<pergunta>
+<item numero="1">
+a)Qual a distancia entre as duas cidades?
+</item>
+<item numero="2">
+b)A que horas movel partiu de campinas?
+</item>
+</pergunta>
+
+</questao>
